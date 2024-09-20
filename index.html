@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/597643084b.js" crossorigin="anonymous"></script>\
+</head>
+<body>
+   <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/2img.png.jpg.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Engineering Student</p>
+                <h1>Hi,I'm <span>Prateek</span><br> From India</h1>
+            </div>
+        </div>
+</div>
+<!------about------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/img15.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p>Hello, I'm Prateek, a dedicated and enthusiastic individual with a passion for technology and creativity. I have always been fascinated by the world of web development and design, and I love to bring ideas to life through coding and design.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick=" opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick=" opentab('hobbies')">Hobbies</p>
+                    <p class="tab-links"onclick=" opentab('education')">Education</p>
+                    <p class="tab-links"onclick=" opentab('Certificate')">Certificate</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Coding</span><br>Python, Linux, SQL</li>
+                        <li><span>Web Development</span><br> (HTML/CSS/JAVA SCRIPT)</li>
+                        <li><span>Cloud Computing</span><br>AWS/Assure/Devops</li>
+                        <li><span>Microsoft Office</span><br>PPT/EXCEL</li>
+                        <li><span>Data Analytic/Visualisation</span><br>Power Bi/Tableau</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                       <li><span>Reading Books</span><br>Comic and Graphic Novel/Legend</li>
+                       <li><span>Playing Games</span><br>Cricket/Kabbadi</li>
+                    </ul> 
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                       <li><span>BTECH (2021-2024)</span><br>CMR Engineering College (Telangana)</li>
+                       <li><span>Inter(2018-2021)</span><br> Vignan College (Telangana)</li>
+                       <li><span>SSC(2017-2018)</span><br>MGM School (Chattisgarh)</li>
+                    </ul> 
+                 </div>
+                 <div class="tab-contents" id="Certificate">
+                    <ul>
+                       <li><span>Paper Published</span><br><a href="https://drive.google.com/file/d/1Vg6YZCg5bPH0n_bTX3lz3UYma1xUx7Zx/view?usp=drive_link" target="_blank">Click Here</a></li>
+                       <li><span>Cloud Practitioner Batch</span><br><a href="https://drive.google.com/file/d/1EW126YXKO8Ad-nT_SsmXsC3rn0gRvGVg/view?usp=drive_link" target="_blank">Click Here</a></li>
+                       <li><span>Internal Hackathon Certificate</span><br><a href="https://drive.google.com/file/d/1vJ1CHu7CNm16wi-5vh48cl62qN6DBjaP/view?usp=drive_link" target="_blank">Click Here</a></li>
+                       <li><span>External Hackathon Certificate</span><br><a href="https://drive.google.com/file/d/1h0kmSrHYqFRRAPweS-vT8PM4nJlyvrUy/view?usp=drive_link" target="_blank">Click Here</a></li>
+                    </ul> 
+                 </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--------services----->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I am Prateek, and I am thrilled to say that web design is my passion.</p>
+                <ahref="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Project</h2>
+                <p>1.Disabilities Person</p>
+                <ahref="#">Learn more</a>
+                <p>2.Plant Disease Ditection</p>
+                <ahref="#">Learn more</a>
+                <p>3.Recomendation System</p>
+                <ahref="#">Learn more</a>
+                <p>4.Calculator Program</p>
+                <ahref="#">Learn more</a>
+                <p>5.Student Registeration Form</p>
+                <ahref="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Assure</h2>
+                <p>Completing an ASSURE course and acquiring knowledge in cloud computing is an important milestone in my professional journey.</p>
+                <ahref="#">Learn more</a>
+            </div>     
+        </div>
+    </div>
+</div>
+<!--------portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span>Works</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/dumb.png">
+                <div class="layer">
+                    <h3>Abled Children</h3>
+                    <p>Working on projects that support and empower differently-abled children can have a profound impact on their lives and society as a whole.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rice.png">
+                <div class="layer">
+                    <h3>Plant Diseases Detection</h3>
+                    <p>Detecting and managing plant diseases is essential for maintaining crop health and ensuring food security.</p>
+            
+                    <!-- GitHub Code Link (Icon Only) -->
+                    <a href="https://github.com/Prateek2134/Plant-Diseases-Detection" target="_blank">
+                        <i class="fa-solid fa-link"></i>
+                    </a> 
+            
+                    <!-- Paper Publication Link (Icon Only) -->
+                    <p>I also received a paper published for this project. Check it here:</p>
+                    <a href="https://drive.google.com/file/d/1zwQmsrzDcTiyskTiY8feJ8kMLSZFdQ2P/view?usp=drive_link" target="_blank">
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/dashboard.png" alt="E-commerce Sales Dashboard">
+                <div class="layer">
+                    <h3>E-commerce Sales Dashboard</h3>
+                    <p>Technology used : Power BI Desktop and Excel Sheet.<br>
+                    Description : I have just finished creating a really useful Power BI dashboard for an online store.</p>
+                    <a href="https://github.com/Prateek2134/E-Commerce-Sales-Dashboard" target="_blank">
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                    <!-- Dasboard -->
+                    <p>To see a video of my dashboard in action, click here!</p>
+                    <a href="https://drive.google.com/file/d/1P4-ISdMq4rhHqFhrHC8xryknLHvQh7HF/view?usp=drive_link" target="_blank">
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div id="moreContent" style="display: none;">
+            <h4><span>Additional Content</span></h4>
+            <p>In these projects, I focused on creating impactful solutions, from empowering differently-abled children to detecting plant diseases, and developing an insightful sales dashboard for an online store. Each project helped me grow my skills in using technology for real-world challenges.</p>
+        </div>
+        
+        <!-- See more button -->
+        <a href="#" class="btn" id="seeMoreBtn">See more</a>
+    </div>
+</div>
+<!--------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact<span>Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i> raoprateek24@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 6268152256</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Prateek2134"><<i class="fa-brands fa-github"></i>></i></a>
+                    <a href="https://www.linkedin.com/in/prateek-rao-b882ab249"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1isqmYlXD6jc-7yoRKqgDXe2vXmiP9ra_/view?usp=drive_link" class="btn btn2">View CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwphExMB9hWqYkulhqzBrCOwXUt7yW_bPnPQLLGvmlBlmsZFKoQizGpjlBBjWqL3Qfi/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+    form.reser()
+    })
+    .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    document.getElementById("seeMoreBtn").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default anchor behavior
+        var moreContent = document.getElementById("moreContent");
+        if (moreContent.style.display === "none") {
+            moreContent.style.display = "block"; // Show content
+            this.textContent = "See less"; // Change button text
+        } else {
+            moreContent.style.display = "none"; // Hide content
+            this.textContent = "See more"; // Reset button text
+        }
+    });
+</script>
+
+</body>
+</html>
